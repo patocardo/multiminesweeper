@@ -1,0 +1,24 @@
+.cell {
+  background-color: #efe;
+  border: 2px solid #999;
+  display: inline-block;
+  flex-basis: 25%;
+  position: relative;
+	.info {
+		font-size: 45px;
+		position: absolute;
+		&--explosion {
+			background-color: red;
+		}
+	}
+	.sizer {
+    padding-bottom: 100%;
+    position: relative;
+	}
+	&--btn {
+	  background: radial-gradient(#eee, #e66);;
+	  border: 2px outset #999;
+	  cursor: pointer;
+	  padding: 0;
+	}
+}

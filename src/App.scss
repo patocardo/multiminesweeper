@@ -1,0 +1,19 @@
+
+.App-header {
+  background-color: #eee;
+  height: 6rem;
+  color: black;
+}
+.App-logo {
+  height: 4rem;
+  margin: 1rem;
+}
+.App-header h1 {
+  display: inline-block;
+  margin: 2rem;
+}
+
+.App-main {
+  background-color: #aaa;
+  min-height: calc(100vh - 6rem)
+}
